@@ -8,7 +8,7 @@ Q2. Bufferbloat can occur in other places such as your network interface card (N
 
 Q3. How does the RTT reported by ping vary with the queue size? Write a symbolic equation to describe the relation between the two (ignore computation overheads in ping that might affect the final result).
 
-- We can see that as the queue size increases, so does the average RTT from the ping output. Equation??????
+- We can see that as the queue size increases, so does the average RTT from the ping output.  We can view this with the equation RTT = 3 * Queue_Size.
 
 Q4. Identify and describe two ways to mitigate the bufferbloat problem.
 
