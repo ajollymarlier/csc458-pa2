@@ -12,4 +12,6 @@ Q3. How does the RTT reported by ping vary with the queue size? Write a symbolic
 
 Q4. Identify and describe two ways to mitigate the bufferbloat problem.
 
-- 
+-  One way we can mitigate bufferbloat, is by optimizing the buffer size. We would want a size that maximizes throughput and minimizes queue wait times. We can do this by using the input an output speeds to calculate this optimal buffer size such that each packet waits waits in the queue for exactly the same time as the processing time per packet.
+
+- We can implement a queuing algorithm that selects packets within the buffer to send such that throughput is optimized. 
