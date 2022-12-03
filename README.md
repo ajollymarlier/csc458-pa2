@@ -1,3 +1,8 @@
+Arun Jolly Marlier, jollymar, 1004956309 \
+No additional installations required.
+
+# Written Questions
+
 Q1. Why do you see a difference in webpage fetch times with small and large router buffers?
 
 - We can see that when the buffer is smaller, our average fetch time is smaller as well. This is because, when a buffer is smaller, it will get filled faster and start dropping packets. This is faster than keeping it in the buffer since protocol would just attempt to resend the packet at another time. Waiting in the buffer until the link can take it, takes more time.
